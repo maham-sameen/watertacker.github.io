@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the Water Tracker project">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            width: 80%;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 100px; /* to prevent footer overlap */
+        }
+        section h2 {
+            color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .feature {
+            background-color: #e2f1e6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Scrollable content */
+        main {
+            overflow-y: auto;
+            height: 80vh;
+            padding-bottom: 60px; /* prevent footer from overlapping */
+        }
+        .more-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature-more {
+            background-color: #f1f8e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px;
+            flex-basis: 48%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature-more h3 {
+            color: #4CAF50;
+        }
+        .feature-more p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Water Tracker</h1>
+        <p>Your personal tool to track water consumption and stay healthy!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Project Information</h2>
+            <p>Water Tracker is more than just a hydration tool. It's a reminder to keep you on track with your health and wellness goals. Staying hydrated is vital for your body to function properly, and this website helps make it easier than ever to monitor your daily water intake.</p>
+            <p>By marking each glass of water you drink, Water Tracker will calculate your total consumption for the day. It also gives you feedback on your hydration habits and shows progress towards your daily goal.</p>
+            <p>Whether you're aiming for a specific target or just want to track your water consumption, this tool is designed to support your wellness journey.</p>
+
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Track Your Glasses</h3>
+                    <p>Simply log each glass of water you drink, and the app will automatically calculate the total number of glasses you've consumed throughout the day.</p>
+                </div>
+                <div class="feature">
+                    <h3>Set Daily Goals</h3>
+                    <p>Set your personal daily water intake goal. The tracker will help you stay on target and remind you to drink more water if you’re falling behind.</p>
+                </div>
+                <div class="feature">
+                    <h3>Hydration Insights</h3>
+                    <p>Get personalized insights on your hydration habits and how they can be improved for better health.</p>
+                </div>
+            </div>
+
+            <h2>More Features</h2>
+            <div class="more-features">
+                <div class="feature-more">
+                    <h3>Hydration Reminders</h3>
+                    <p>Set up hourly reminders to drink water and stay on track throughout the day.</p>
+                </div>
+                <div class="feature-more">
+                    <h3>Progress Tracker</h3>
+                    <p>Visualize your hydration progress with a simple progress bar that updates as you log your water intake.</p>
+                </div>
+                <div class="feature-more">
+                    <h3>Water Consumption Stats</h3>
+                    <p>View detailed stats about your water consumption over the past week, month, or year.</p>
+                </div>
+                <div class="feature-more">
+                    <h3>Customizable Goals</h3>
+                    <p>Adjust your hydration goals based on your activity level, body weight, or climate to make it more personalized.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Water Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
